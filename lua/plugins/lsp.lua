@@ -10,6 +10,8 @@ return {
         "rust-analyzer",
         "typescript-language-server",
         "tailwindcss-language-server",
+        "prettier",
+        "prettierd",
       },
     },
   },

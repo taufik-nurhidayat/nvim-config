@@ -1,26 +1,25 @@
-return {}
--- return {
---   "stevearc/conform.nvim",
---   optional = true,
---   opts = {
---     formatters_by_ft = {
---       ["javascript"] = { "prettier" },
---       ["javascriptreact"] = { "prettier" },
---       ["typescript"] = { "prettier" },
---       ["typescriptreact"] = { "prettier" },
---       ["vue"] = { "prettier" },
---       ["css"] = { "prettier" },
---       ["scss"] = { "prettier" },
---       ["less"] = { "prettier" },
---       ["html"] = { "prettier" },
---       ["json"] = { "prettier" },
---       ["jsonc"] = { "prettier" },
---       ["yaml"] = { "prettier" },
---       ["markdown"] = { "prettier" },
---       ["markdown.mdx"] = { "prettier" },
---       ["graphql"] = { "prettier" },
---       ["handlebars"] = { "prettier" },
---       ["htmldjango"] = { "prettier" },
---     },
---   },
--- }
+return {
+  "stevearc/conform.nvim",
+  optional = true,
+  opts = {
+    formatters_by_ft = {
+      ["javascript"] = { "prettierd", "prettier" },
+      ["javascriptreact"] = { "prettierd", "prettier" },
+      ["typescript"] = { "prettierd", "prettier" },
+      ["typescriptreact"] = { "prettierd", "prettier" },
+      ["vue"] = { "prettierd", "prettier" },
+      ["css"] = { "prettierd", "prettier" },
+      ["scss"] = { "prettierd", "prettier" },
+      ["less"] = { "prettier" },
+      ["html"] = { "prettierd", "prettier" },
+      ["json"] = { "prettierd", "prettier" },
+      ["jsonc"] = { "prettier" },
+      ["yaml"] = { "prettier" },
+      ["markdown"] = { "prettier" },
+      ["markdown.mdx"] = { "prettier" },
+      ["graphql"] = { "prettier" },
+      ["handlebars"] = { "prettier" },
+      ["htmldjango"] = { "prettier" },
+    },
+  },
+}

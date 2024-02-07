@@ -4,6 +4,7 @@ return {
     opts = {
       ensure_installed = {
         "stylua",
+        "json-lsp",
         "shellcheck",
         "shfmt",
         "flake8",
@@ -12,6 +13,7 @@ return {
         "tailwindcss-language-server",
         "prettier",
         "prettierd",
+        "svelte-language-server",
       },
     },
   },

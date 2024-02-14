@@ -20,6 +20,7 @@ return {
       ["graphql"] = { "prettier" },
       ["handlebars"] = { "prettier" },
       ["htmldjango"] = { "prettier" },
+      ["astro"] = { "prettier" },
     },
   },
 }

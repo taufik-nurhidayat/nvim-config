@@ -21,6 +21,7 @@ return {
       ["handlebars"] = { "prettier" },
       ["htmldjango"] = { "prettier" },
       ["astro"] = { "prettier" },
+      ["rust"] = { "rustfmt" },
     },
   },
 }

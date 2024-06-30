@@ -8,5 +8,10 @@ return {
         rust = "html",
       },
     },
+    opts = {
+      servers = {
+        dartls = {},
+      },
+    },
   },
 }

@@ -22,6 +22,7 @@ return {
       ["htmldjango"] = { "prettier" },
       ["astro"] = { "prettier" },
       ["rust"] = { "rustfmt" },
+      ["svg"] = { "prettier" },
     },
   },
 }

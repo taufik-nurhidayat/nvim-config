@@ -13,7 +13,7 @@ return {
       ["less"] = { "prettier" },
       ["html"] = { "prettierd", "prettier" },
       ["json"] = { "prettierd", "prettier" },
-      ["jsonc"] = { "prettier" },
+      ["jsonc"] = { "prettierd", "prettier" },
       ["yaml"] = { "prettier" },
       ["markdown"] = { "prettier" },
       ["markdown.mdx"] = { "prettier" },
